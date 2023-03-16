@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><b>Forms</b></title>
+    </head>
+    <h1><b><mark><u>Student Registration Form</u></b></h1>
+        <body>
+            <form action="https://www.google.co.in/search?q=fb+login&oq=fb&aqs=chrome.2.69i57j69i60j69i59.5367j0j8&sourceid=chrome&es_sm=93&ie=UTF-8">
+        <fieldset>
+            <legend><u><b>Personal Details</b></u></legend>
+            <label>First Name</label>
+            <input type="text" required placeholder="ashes" id="fname" name="fname" pattern="[a-zA-Z]{3-9}"><br><br>
+            <label>Middle  Name</label>
+            <input type="text" required placeholder="ashes" id="mname" name="mname" pattern="[a-zA-Z]{3-9}"><br><br>
+            <label>Last Name</label>
+            <input type="text" required placeholder="ashes" id="lname" name="lname" pattern="[a-zA-Z]{3-9}"><br><br>
+            <label>Email</label>
+            <input type="email" required placeholder="ashes@.com" id="email" name="email" pattern="[a-z1-9]"{1}><br><br>
+            <label>Ph:No:</label>
+            <input type="number" required placeholder="7654321890" id="ph.no" name="ph.no" pattern="[6-9]{1}{0-9}{9}"><br><br>
+            <label>DOB</label>
+            <input type="date" required id="dob" name="dob" ><br><br>
+            <label>Address</label>
+            <input type="text" required id="add" name="add"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend><b><u>Educational Details</u></b></legend>
+            <label>College Name</label>
+            <input type="text" required pattern="jain University" id="clg" name="clg" pattern="jain university"><br><br>
+            <label>YOG</label>
+            <input list="Yog" id="yog" name="yog" required>
+            <datalist id="Yog">
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+            </datalist><br><br>
+            <label>Course</label>
+            <input list="Course" id="course" name="course" required>
+            <datalist id="Course">
+                <option>MCP1</option>
+                <option>MCP2</option>
+            </datalist><br><br>
+            <label>Department</label>
+            <input type="radio" required id="dept" name="dept">
+            <label>EEE</label>
+            <input type="radio" required id="dept" name="dept">
+            <label>ECE</label>
+            <input type="radio" required id="dept" name="dept">
+            <label>CSE</label>
+            <input type="radio" required id="dept" name="dept">
+            <label>Civil</label>
+            <input type="radio" required id="dept" name="dept">
+            <label>Mec</label><br><br>
+            <label>Skills</label>
+            <input type="checkbox" name="java" id="java">
+            <label>java</label>
+            <input type="checkbox" name="css" id="css">
+            <label>css</label>
+            <input type="checkbox" name="html" id="html">
+            <label>html</label>
+            <input type="checkbox" name="ng" id="ng">
+            <label>angular</label><br><br>
+        </fieldset> 
+        <input type="SUBMIT">
+    </form>
+        </body>
+</html>
